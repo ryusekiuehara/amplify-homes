@@ -1,0 +1,9 @@
+type Qualifications @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  password: String
+  untitledfield: String
+  Acquisitiondate: String
+  QualificationsName: String
+  Point: String
+  EffectiveDate: String
+} 
